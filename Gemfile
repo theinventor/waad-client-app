@@ -14,6 +14,8 @@ gem 'thin'
 
 gem 'oauth2'
 
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
