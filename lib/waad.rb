@@ -15,8 +15,6 @@ module WAAD
     end
 
     def connection(credentials)
-      #token_endpoint = 'https://login.windows.net/9ae3f0b0-7feb-44a4-9b1d-98f8fe7f98f4/oauth2/token?api-version=1.0'
-      #auth_endpoint = 'https://login.windows.net/9ae3f0b0-7feb-44a4-9b1d-98f8fe7f98f4/oauth2/authorize?api-version=1.0'
       OAuth2::Client.new(
           credentials[:client_id],
           credentials[:client_secret],
